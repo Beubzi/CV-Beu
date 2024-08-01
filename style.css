@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+h2 {
+    margin: 0;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+main {
+    min-height: 500px;
+    width: 90%;
+    background: rgba(248, 247, 247, 0.425);
+    /* Centrer une boite */
+    margin: auto;
+    border: 3px solid rgb(62, 172, 216);
+    border-radius: 20px;
+    box-shadow: -6px 5px 9px 4px #779dd4;
+    padding: 15px 15px 15px;
+}
+table {
+    margin: auto;
+}
+body {
+    background: #c4d6f0;
+}
+
+.presentation-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.workexperience {
+    font-weight: bold;
+}
+
+.information {
+ border-radius: 5px;
+ background: teal;
+ text-transform: capitalize;
+
+}
+
+.presentation-container li {
+    list-style: none;
+}
+
+.aboutme {
+    text-align: center;
+}
+.ManoMano-experience {
+    background: url(./photoCS.jpg) center/cover;
+    opacity: 0.9;
+}
+.hotel-experience {
+    background: url(./photohotel.jpg) center/cover;
+    opacity: 0.9;
+    color: #e7e6e1;
+}
+.Software {
+    background: url(./outils.jpg) center/cover;
+    opacity: 0.9;
+}
+.languages {
+    background: url(./photo\ monde.jpg) center/cover;
+    opacity: 0.9;
+    color: aliceblue;
+}
+.skills {
+    background: url(./photo\ altere.jpg) center/cover;
+    font-weight: bold;
+}
+.technicalskills {
+    font-weight: bold;
+}
